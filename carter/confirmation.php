@@ -7,77 +7,125 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-<title>Birds a Animal Category Flat Bootstarp responsive Website Template | Blog :: w3layouts</title>
+
+<title>Birds With Dentures Charity</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Birds Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
+<meta name="keywords" content="Birds With Dentures" />
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- bootstarp-css -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+	<script src="scripts/jquery.bgswitcher.js"></script>
+
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!--// bootstarp-css -->
-<!-- css -->
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/swipebox.css" type="text/css" media="all" />
+
 <!--// css -->
-<script src="js/jquery.min.js"></script>
+
+<script >
+$(document).ready(function(){
+$(".banner").bgswitcher({
+
+	 images: ["images/bald-eagles-44243_1280.jpg", "images/eagle1.jpg", "images/bird_teeth.jpg", "images/Birds-Brushing-Their-Teeth--121823.jpg"], // Background images
+
+	  effect: "fade", // fade, blind, clip, slide, drop, hide
+
+	  interval: 5000, // Interval of switching
+
+	  loop: true, // Loop the switching
+
+	  shuffle: false, // Shuffle the order of an images
+
+	  duration: 3000, // Effect duration
+
+	  easing: "swing" // Effect easing
+
+	});
+	});
+</script>
+
 <!--fonts-->
+
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,800,700,600' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
 <!--/fonts-->
+
+
 </head>
 <body>
-	<div class="banner about-banner">
+	<div class="banner">
+
 			<div class="banner-grids">
+
 				<div class="banner-grid-left">
-					<div class="header-logo">
-						<a href="index.html"><img src="images/logo.png" alt="" /></a>
+
+					<div class="header-logo" style="float:left">
+
+						<h1>Birds With Dentures Charity</h1>
+
 					</div>
-					<div class="top-nav">
+
+					<div class="top-nav" style="float:left">
+
 							<ul class="cl-effect-1">
+
 								<li><a href="index.html">Home</a></li>                                             
+
 								<li><a href="about.html">About</a></li>
-								<li><a href="blog.html">Blog</a></li> 
-								<li><a href="contact.html">Contact</a></li>   
+
+								<li><a href="donations.html"><strong>Donate Now</strong></strong></a></li> 
+
+								<li><a href="contact.html">Contact</a></li>
+                                <li><a href="donations.html">Donations</a></li>
+                                <li><a href="cart.html">My Cart</a></li>     
+
 							</ul>
+
 					</div>
+
 				</div>
+
 				<div class="banner-grid-info">
+
 					<div class="social-icons">
+
 						<ul>
+
 							<li><a href="#" class="facebook"></a></li>
+
 							<li><a href="#" class="facebook twitter"></a></li>
+
 							<li><a href="#" class="facebook dribble"></a></li>
+
 						</ul>
+
 					</div>
 				</div>
+
 				<div class="clearfix"> </div>
+
 			</div>
+
 	</div>
 	<!-- blog -->
 	<div class="blog">
 		<!-- container -->
 		<div class="container">
 			<div class="col-md-9 blog-grids">
-				<div class="blog-left single-left">
-					<a href="single.html">Lorem ipsum dolor sit amet consectetur adipiscing elit</a>
-					<p class="likes">Posted 02.05.2015 at 18:00h in Web Author By <a href="#">Jhone Smith</a> / <a href="#">60 Likes</a> / <a href="#">2 Comments</a></p>
-					<a href="single.html" class="b-img"><img src="images/b3.jpg" alt="" /></a>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit.</p>
-					<a href="single.html" class="more">Read More...</a>
-				</div>
-				<div class="blog-left single-left">
-					<a href="single.html">Lorem ipsum dolor sit amet consectetur adipiscing elit</a>
-					<p class="likes">Posted 02.05.2015 at 18:00h in Web Author By <a href="#">Jhone Smith</a> / <a href="#">60 Likes</a> / <a href="#">2 Comments</a></p>
-					<a href="single.html" class="b-img"><img src="images/b1.jpg" alt="" /></a>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit.</p>
-					<a href="single.html" class="more">Read More...</a>
-				</div>
-				<div class="blog-left single-left">
-					<a href="single.html">Lorem ipsum dolor sit amet consectetur adipiscing elit</a>
-					<p class="likes">Posted 02.05.2015 at 18:00h in Web Author By <a href="#">Jhone Smith</a> / <a href="#">60 Likes</a> / <a href="#">2 Comments</a></p>
+			  <div class="blog-left single-left">
+				  <a href="single.html">Thank you for your donation.  View your donation confirmation here</a>
+				  <p class="likes">&nbsp;</p>
 					<a href="single.html" class="b-img"><img src="images/b2.jpg" alt="" /></a>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit.</p>
-					<a href="single.html" class="more">Read More...</a>
-				</div>
+					<p>&nbsp;</p>
+			  </div>
 			</div>
 			<div class="col-md-3 sidebar">
 				<h5>Blog Search</h5>

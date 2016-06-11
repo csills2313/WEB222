@@ -38,7 +38,7 @@ $(".banner").bgswitcher({
 
 	  shuffle: false, // Shuffle the order of an images
 
-	  duration: 5000, // Effect duration
+	  duration: 3000, // Effect duration
 
 	  easing: "swing" // Effect easing
 
