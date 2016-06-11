@@ -81,7 +81,9 @@ $(".banner").bgswitcher({
 
 								<li><a href="donations.html"><strong>Donate Now</strong></strong></a></li> 
 
-								<li><a href="contact.html">Contact</a></li>   
+								<li><a href="contact.html">Contact</a></li>
+                                <li><a href="donations.html">Donations</a></li>
+                                <li><a href="cart.html">My Cart</a></li>     
 
 							</ul>
 
@@ -316,7 +318,7 @@ $(".banner").bgswitcher({
 
 									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
 
-										<div class="portfolio-wrapper"> <a href="images/Birds-Brushing-Their-Teeth--121823.jpg"><img src="images/Birds-Brushing-Their-Teeth--121823.jpg"></a>
+										<div class="portfolio-wrapper"> <a href="images/Birds-Brushing-Their-Teeth--121823.jpg"><img src="images/Birds-Brushing-Their-Teeth--121823.jpg" width="240" height="196"></a>
 										  <div class="b-wrapper"><h2 class="b-animate b-from-left prt-3   b-delay03 ">Photography</h2>
 
 									  	  </div>
