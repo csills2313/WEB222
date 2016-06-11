@@ -79,7 +79,7 @@ $(".banner").bgswitcher({
 
 								<li><a href="about.html">About</a></li>
 
-								<li><a href="donations.html">Blog</a></li> 
+								<li><a href="donations.html"><strong>Donate Now</strong></strong></a></li> 
 
 								<li><a href="contact.html">Contact</a></li>   
 
