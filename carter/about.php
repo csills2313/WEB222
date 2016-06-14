@@ -75,15 +75,15 @@ $(".banner").bgswitcher({
 
 							<ul class="cl-effect-1">
 
-								<li><a href="index.html">Home</a></li>                                             
+								<li><a href="index.php">Home</a></li>                                             
 
-								<li><a href="about.html">About</a></li>
+								<li><a href="about.php">About</a></li>
 
-								<li><a href="donations.html"><strong>Donate Now</strong></strong></a></li> 
+								<li><a href="donations.php"><strong>Donate Now</strong></strong></a></li> 
 
-								<li><a href="contact.html">Contact</a></li>
-                                <li><a href="donations.html">Donations</a></li>
-                                <li><a href="cart.html">My Cart</a></li>     
+								<li><a href="contact.php">Contact</a></li>
+                                <li><a href="donations.php">Donations</a></li>
+                                <li><a href="shoppingcart/index.php">My Cart</a></li>     
 
 							</ul>
 
