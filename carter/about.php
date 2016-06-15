@@ -131,8 +131,8 @@ $(".banner").bgswitcher({
 				</div>
 
 				<div class="col-md-7 history-right">
-
-					<h3>Our History</h3>
+                <a id="ourhistory"></a>
+<h3>Our History</h3>
 
 					<p>While in college our team used to sit outside while programming web sites and mobile apps, and it wasn't long until we took notice of the local aviary wildlife. Our deficits in attention to our tasks at hand, allowed us to take notice of a very burdening aspect of a bird's life. They simply put do not have the ability to protect themselves in a manner of similar furocity of other animals that roam the ground.
 

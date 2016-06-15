@@ -77,11 +77,11 @@ $(".banner").bgswitcher({
 
 								<li><a href="index.php">Home</a></li>                                             
 
-								<li><a href="about.php">About</a></li>
+								<li><a href="about.php#ourhistory">About</a></li>
 
 								<li><a href="donations.php"><strong>Donate Now</strong></strong></a></li> 
 
-								<li><a href="contact.php">Contact</a></li>
+								<li><a href="contact.php#contactus">Contact</a></li>
                                 <li><a href="donations.php">Donations</a></li>
                                 <li><a href="shoppingcart/index.php">My Cart</a></li>     
 

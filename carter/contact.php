@@ -126,8 +126,8 @@ $(".banner").bgswitcher({
 			<div class="contact-grids">
 
 				<h3>Feel Free to Contact Us</h3>
-				<h3>Our addresses</h3>
-
+			  <h3>Our addresses</h3>
+                 <a id="contactus"></a>
 				<div class="address-grids">
 
 					<div class="col-md-4 address-text">

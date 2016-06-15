@@ -34,13 +34,16 @@ body a {
 
 .banner{
 
+  background-size: 100% 100%;
+  
+  min-height: 45em;
+
+  /*background-size: cover;*/
+
   
 
-  background-size: cover;
-
-  min-height: 1024px;
-
 }
+
 
 .banner-grids {
 
