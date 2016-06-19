@@ -86,7 +86,35 @@ if(isset($_SESSION["cart_item"])){
 ?>
 </div>
 <form action="../donate_cofirm.php" method="post" class="btnAddAction">
+<table width="269" border="1">
+  <tr>
+    <th width="104" scope="row">Name</th>
+    <td width="149"><label for="name"></label>
+      <input type="text" name="name" id="name"></td>
+    </tr>
+  <tr>
+    <th scope="row">Email Address</th>
+    <td><label for="email"></label>
+      <input type="text" name="email" id="email"></td>
+    </tr>
+  <tr>
+    <th scope="row">Address</th>
+    <td><label for="address"></label>
+      <input type="text" name="address" id="address"></td>
+    </tr>
+  <tr>
+    <th scope="row">State</th>
+    <td id="state" name="state"><label for="state"></label>
+      <input type="text" name="state" id="state"></td>
+    </tr>
+    <tr>
+    <th scope="row">Zip Code</th>
+    <td><label for="zipcode"></label>
+      <input type="text" name="zipcode" id="zipcode"></td>
+    </tr>
+</table>
 <input name="donatenow" type="submit" id="donatenow" value="Donate Now!">
+
 </form>
 <div id="product-grid">
   <div class="txt-heading">Products</div>
