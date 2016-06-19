@@ -271,83 +271,7 @@ $(".banner").bgswitcher({
 			  </div>
 			</div>
 
-			<div class="col-md-3 sidebar">
-
-				<h5>Blog Search</h5>
-
-				<div class="search">
-
-				  <form>
-
-					<input type="text" value="Enter to search..." onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
-
-					<input type="submit" value="">
-
-				  </form>
-
-				</div>
-
-				<div class="sidebar-bottom">
-
-					<h5>Archives</h5>
-
-					<ul>
-
-						<li><a href="#">February 2015</a></li>
-
-						<li><a href="#">January 2015</a></li>
-
-						<li><a href="#">December 2015</a></li>
-
-						<li><a href="#">November 2015</a></li>
-
-						<li><a href="#">February 2015</a></li>
-
-						<li><a href="#">December 2015</a></li>
-
-					</ul>
-
-				</div>
-
-				<div class="sidebar-last">
-
-					<h5>Photo Gallery</h5>
-
-					<ul>
-
-						<li><a href="#"><img src="images/p1.jpg" alt="" ></a></li>
-
-						<li><a href="#"><img src="images/p2.jpg" alt="" ></a></li>
-
-						<li><a href="#"><img src="images/p3.jpg" alt="" ></a></li>
-
-					</ul>
-
-					<ul>
-
-						<li><a href="#"><img src="images/p2.jpg" alt="" ></a></li>
-
-						<li><a href="#"><img src="images/p3.jpg" alt="" ></a></li>
-
-						<li><a href="#"><img src="images/p1.jpg" alt="" ></a></li>
-
-					</ul>
-
-					<ul>
-
-						<li><a href="#"><img src="images/p3.jpg" alt="" ></a></li>
-
-						<li><a href="#"><img src="images/p1.jpg" alt="" ></a></li>
-
-						<li><a href="#"><img src="images/p2.jpg" alt="" ></a></li>
-
-					</ul>
-
-					</ul>
-
-				</div>
-
-			</div>
+			
 
 			<div class="clearfix"> </div>
 
@@ -381,7 +305,7 @@ $(".banner").bgswitcher({
 
 						<li><a href="about.html">About</a></li>
 
-						<li><a href="donations.html">Blog</a></li>
+						<li><a href="blog.html">Blog</a></li>
 
 						<li><a href="contact.html">Contact</a></li>
 
@@ -397,9 +321,9 @@ $(".banner").bgswitcher({
 
 				<div class="col-md-3 footer-left">
 
-					<h3>About</h3>
+							<h3>About</h3>
 
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry galley of type and scrambled it to make a type specimen book......</p>
+					<p>We are a group of devoted bird entusiasts whom want to increase the safety and future of these majest creatures through proper dental advancements......</p>
 
 				</div>
 
@@ -409,25 +333,25 @@ $(".banner").bgswitcher({
 
 					<div class="post-info">
 
-						<a href="#">Fusce scelerisque mastae</a>
+						<a href="#">Would the Doto have gone extinct...</a>
 
-						<p>25 april 2015</p>
-
-					</div>
-
-					<div class="post-info">
-
-						<a href="#">Pellentesque bibendum ante</a>
-
-						<p>15 march 2015</p>
+						<p>2 June 2016</p>
 
 					</div>
 
 					<div class="post-info">
 
-						<a href="#">Maecenas quis ipsum sed</a>
+						<a href="#">What to do if you are chased by...</a>
 
-						<p>25 april 2015</p>
+						<p>23 May 2016</p>
+
+					</div>
+
+					<div class="post-info">
+
+						<a href="#">Umbrellas to shew away seagulls, fact or fiction...</a>
+
+						<p>3 May 2016</p>
 
 					</div>
 
@@ -437,11 +361,11 @@ $(".banner").bgswitcher({
 
 					<h3>Comments</h3>
 
-					<p><a href="#">It is a long established fact that a reader will looking layout.</a></p>
+					<p>How to spot a bird in need.</p>
 
-					<p><a href="#">There are many variations of passages of Ipsum words.</a></p>
+					<p>Why did it take so long to address their needs.</p>
 
-					<p><a href="#">It is a long established fact that a reader will looking layout.</a></p>
+					<p>Regular cleaning of bird's teeth equals less bird flu.</p>
 
 				</div>
 
@@ -451,17 +375,17 @@ $(".banner").bgswitcher({
 
 					<ul>
 
-						<li>500 Lorem Ipsum Dolor Sit,</li>
+					    <li>500 S Birds Nest Ln</li>
 
-						<li>22-56-2-9 Sit Amet,</li>
+						<li>Somewhere Warm</li>
 
 						<li>USA</li>
 
-						<li>Phone:(00) 222 666 444</li>
+						<li>Phone:(555) 555-5555</li>
 
-						<li>Fax: (000) 000 00 00 0</li>
+						<li>Fax: (555) 555-5551</li>
 
-						<li><a href="mailto:example@email.com">Example@mail.com</a></li>
+						<li><a href="mailto:dentures4birds@birdmail.com">dentures4birds@birdmail.com</a></li>
 
 					</ul>
 
