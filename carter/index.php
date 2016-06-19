@@ -79,10 +79,10 @@ $(".banner").bgswitcher({
 
 								<li><a href="about.php#ourhistory">About</a></li>
 
-								<li><a href="donations.php"><strong>Donate Now</strong></strong></a></li> 
+								<li><a href="donations.php#donations"><strong>Donate Now</strong></strong></a></li> 
 
 								<li><a href="contact.php#contactus">Contact</a></li>
-                                <li><a href="donations.php">Donations</a></li>
+                                
                                 <li><a href="shoppingcart/index.php">My Cart</a></li>     
 
 							</ul>
@@ -126,7 +126,7 @@ $(".banner").bgswitcher({
 
 				<h3>Welcome To Birds With Dentures</h3>
 
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,galley of type and scrambled it to make a type specimen book.</p>
+				<p>There are not too many creatures in nature near as majestic as those whom rule the skies. Unfortunately, every time on of these proud animals touch down they are at risk. Risk of what you might ask? They have few tools available to defend themselves and their families. Our work helps to increase their abilities protect themselves while not in flight, by providing them with award winning dentures.</p>
 
 			</div>
 
@@ -140,9 +140,9 @@ $(".banner").bgswitcher({
 
 										<div class="portfolio-wrapper ">		
 
-											<a href="images/parrot-1209201_1280.jpg" class="b-link-stripe b-animate-go  swipebox" title="">
+											<a href="images/C5iJu.jpg" class="b-link-stripe b-animate-go  swipebox" title="">
 
-										     <img src="images/parrot-1209201_1280.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left prt-1  b-delay03 ">Photography</h2>
+										     <img src="images/C5iJu.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left prt-1  b-delay03 ">Photography</h2>
 
 										  	 </div></a>
 
@@ -154,23 +154,9 @@ $(".banner").bgswitcher({
 
 										<div class="portfolio-wrapper p-5">		
 
-											<a href="images/port-5.jpg" class="b-link-stripe b-animate-go  swipebox" title="">
+											<a href="images/2014savage_emu.jpg" class="b-link-stripe b-animate-go  swipebox" title="">
 
-										     <img src="images/port-5.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left  prt-2  b-delay03 ">Photography</h2>
-
-										  	 </div></a>
-
-			                			</div>
-
-			                		</div>
-
-									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
-
-										<div class="portfolio-wrapper p-5">		
-
-											<a href="images/port-8.jpg" class="b-link-stripe b-animate-go  swipebox" title="">
-
-										     <img src="images/port-8.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left  prt-2  b-delay03 ">Photography</h2>
+										     <img src="images/2014savage_emu.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left  prt-2  b-delay03 ">Photography</h2>
 
 										  	 </div></a>
 
@@ -178,19 +164,9 @@ $(".banner").bgswitcher({
 
 			                		</div>
 
-									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;"></div>
 
-										<div class="portfolio-wrapper p-5">		
-
-											<a href="images/port-9.jpg" class="b-link-stripe b-animate-go  swipebox" title="">
-
-										     <img src="images/port-9.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left  prt-2  b-delay03 ">Photography</h2>
-
-										  	 </div></a>
-
-			                			</div>
-
-			                		</div>
+									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;"></div>
 
 								</div>
 
@@ -214,23 +190,9 @@ $(".banner").bgswitcher({
 
 										<div class="portfolio-wrapper p-5">		
 
-											<a href="images/port-6.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
+											<a href="images/5.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
 
-										     <img src="images/port-6.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left prt-3   b-delay03 ">Photography</h2>
-
-										  	 </div></a>
-
-			                			</div>
-
-			                		</div>
-
-									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
-
-										<div class="portfolio-wrapper p-5">		
-
-											<a href="images/port-7.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
-
-										     <img src="images/port-7.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left prt-3   b-delay03 ">Photography</h2>
+										     <img src="images/5.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left prt-3   b-delay03 ">Photography</h2>
 
 										  	 </div></a>
 
@@ -238,19 +200,9 @@ $(".banner").bgswitcher({
 
 			                		</div>
 
-									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;"></div>
 
-										<div class="portfolio-wrapper p-5">		
-
-											<a href="images/port-2.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
-
-										     <img src="images/port-2.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left prt-3   b-delay03 ">Photography</h2>
-
-										  	 </div></a>
-
-			                			</div>
-
-			                		</div>
+									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;"></div>
 
 								</div>
 
@@ -258,7 +210,7 @@ $(".banner").bgswitcher({
 
 									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
 
-										<div class="portfolio-wrapper">		
+										<div class="portfolio-wrapper  p-5">		
 
 											<a href="images/eagle1.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
 
@@ -274,23 +226,9 @@ $(".banner").bgswitcher({
 
 										<div class="portfolio-wrapper p-5">		
 
-											<a href="images/port-7.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
+											<a href="images/hqdefault.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
 
-										     <img src="images/port-7.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left  prt-5  b-delay03 ">Photography</h2>
-
-										  	 </div></a>
-
-			                			</div>
-
-			                		</div>
-
-									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
-
-										<div class="portfolio-wrapper p-5">		
-
-											<a href="images/port-3.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
-
-										     <img src="images/port-3.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left  prt-5  b-delay03 ">Photography</h2>
+										     <img src="images/hqdefault.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left  prt-5  b-delay03 ">Photography</h2>
 
 										  	 </div></a>
 
@@ -298,19 +236,9 @@ $(".banner").bgswitcher({
 
 			                		</div>
 
-									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;"></div>
 
-										<div class="portfolio-wrapper p-5">		
-
-											<a href="images/port-5.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
-
-										     <img src="images/port-5.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left  prt-5  b-delay03 ">Photography</h2>
-
-										  	 </div></a>
-
-			                			</div>
-
-			                		</div>
+									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;"></div>
 
 								</div>
 
@@ -318,7 +246,7 @@ $(".banner").bgswitcher({
 
 									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
 
-										<div class="portfolio-wrapper"> <a href="images/Birds-Brushing-Their-Teeth--121823.jpg"><img src="images/Birds-Brushing-Their-Teeth--121823.jpg" width="240" height="196"></a>
+										<div class="portfolio-wrapper"> <a href="images/Birds-Brushing-Their-Teeth--121823.jpg"><img src="images/Birds-Brushing-Their-Teeth--121823.jpg"></a>
 										  <div class="b-wrapper"><h2 class="b-animate b-from-left prt-3   b-delay03 ">Photography</h2>
 
 									  	  </div>
@@ -331,23 +259,9 @@ $(".banner").bgswitcher({
 
 										<div class="portfolio-wrapper p-5">		
 
-											<a href="images/port-8.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
+											<a href="images/emugold.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
 
-										     <img src="images/port-8.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left prt-3   b-delay03 ">Photography</h2>
-
-										  	 </div></a>
-
-			                			</div>
-
-			                		</div>
-
-									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
-
-										<div class="portfolio-wrapper p-5">		
-
-											<a href="images/port-4.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
-
-										     <img src="images/port-4.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left prt-3   b-delay03 ">Photography</h2>
+										     <img src="images/emugold.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left prt-3   b-delay03 ">Photography</h2>
 
 										  	 </div></a>
 
@@ -355,17 +269,11 @@ $(".banner").bgswitcher({
 
 			                		</div>
 
+									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;"></div>
+
 									<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
 
-										<div class="portfolio-wrapper p-5">		
-
-											<a href="images/port-6.jpg" class="b-link-stripe b-animate-go   swipebox" title="">
-
-										     <img src="images/port-6.jpg"><div class="b-wrapper"><h2 class="b-animate b-from-left prt-3   b-delay03 ">Photography</h2>
-
-										  	 </div></a>
-
-			                			</div>
+										
 
 			                		</div>
 
@@ -439,7 +347,7 @@ $(".banner").bgswitcher({
 
 					<h3>About</h3>
 
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry galley of type and scrambled it to make a type specimen book......</p>
+					<p>We are a group of devoted bird entusiasts whom want to increase the safety and future of these majest creatures through proper dental advancements......</p>
 
 				</div>
 
@@ -449,25 +357,25 @@ $(".banner").bgswitcher({
 
 					<div class="post-info">
 
-						<a href="#">Fusce scelerisque mastae</a>
+						<a href="#">Would the Dodo have gone extinct...</a>
 
-						<p>25 april 2015</p>
-
-					</div>
-
-					<div class="post-info">
-
-						<a href="#">Pellentesque bibendum ante</a>
-
-						<p>15 march 2015</p>
+						<p>2 June 2016</p>
 
 					</div>
 
 					<div class="post-info">
 
-						<a href="#">Maecenas quis ipsum sed</a>
+						<a href="#">What to do if you are chased by...</a>
 
-						<p>25 april 2015</p>
+						<p>23 May 2016</p>
+
+					</div>
+
+					<div class="post-info">
+
+						<a href="#">Umbrellas to shew away seagulls, fact or fiction...</a>
+
+						<p>3 May 2016</p>
 
 					</div>
 
@@ -477,31 +385,31 @@ $(".banner").bgswitcher({
 
 					<h3>Comments</h3>
 
-					<p><a href="#">It is a long established fact that a reader will looking layout.</a></p>
+					<p>How to spot a bird in need.</p>
 
-					<p><a href="#">There are many variations of passages of Ipsum words.</a></p>
+					<p>Why did it take so long to address their needs.</p>
 
-					<p><a href="#">It is a long established fact that a reader will looking layout.</a></p>
+					<p>Regular cleaning of bird's teeth equals less bird flu.</p>
 
 				</div>
 
 				<div class="col-md-3 address">
 
-					<h3>Address</h4>
+					<h3>Address</h3>
 
 					<ul>
 
-						<li>500 Lorem Ipsum Dolor Sit,</li>
+						<li>500 S Birds Nest Ln</li>
 
-						<li>22-56-2-9 Sit Amet,</li>
+						<li>Somewhere Warm</li>
 
 						<li>USA</li>
 
-						<li>Phone:(00) 222 666 444</li>
+						<li>Phone:(555) 555-5555</li>
 
-						<li>Fax: (000) 000 00 00 0</li>
+						<li>Fax: (555) 555-5551</li>
 
-						<li><a href="mailto:example@email.com">Example@mail.com</a></li>
+						<li><a href="mailto:dentures4birds@birdmail.com">dentures4birds@birdmail.com</a></li>
 
 					</ul>
 
@@ -512,7 +420,6 @@ $(".banner").bgswitcher({
 				<div class="copyright">
 
 					<p>&nbsp;</p>
-
 				</div>
 
 			</div>

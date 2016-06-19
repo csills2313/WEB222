@@ -82,7 +82,7 @@ $(".banner").bgswitcher({
 								<li><a href="donations.php"><strong>Donate Now</strong></strong></a></li> 
 
 								<li><a href="contact.php">Contact</a></li>
-                                <li><a href="donations.php">Donations</a></li>
+                                
                                 <li><a href="shoppingcart/index.php">My Cart</a></li>     
 
 							</ul>
@@ -125,9 +125,45 @@ $(".banner").bgswitcher({
 			<div class="col-md-9 blog-grids">
 
 				<div class="blog-left single-left">
+                <?php
+if( isset($_POST['submit']) ){
+	     $sendermessage = $_POST['message'];
+	     $sender = $_POST['email']; 
+         $to = "csills2313@gmail.com, $sender";
+         $subject = $_POST['subject'];
+         $name = $_POST['name'];
+		 $message = "<html>";
+		 $message .= "<body>";
+         $message .= "<h2>Thank you for contacting me $name. I will follow up with you as soon as possible.</h2>";
+         $message .= "<h3>Message Recieved from $name</h3>";
+		 $message .= "<h4>Subject: $subject</h4>";
+         $message .= $_POST['message'];
+		 $message .= "<html>";
+		 $message .= "<body>";
+         $header = "From:csills2313@gmail.com \r\n";
+         $header .= "Cc:csills2313@aol.com\r\n";
+         $header .= "MIME-Version: 1.0\r\n";
+         $header .= "Content-type: text/html\r\n";
+         
+         $retval = mail ($to,$subject,$message,$header);
+         mail($to,$subject,$message,$header);
+         if( $retval == true ) {
+            echo "Message sent successfully...";
+			print "<h6>Thank you $name. We have recieved your email and will contact you shortly.</h6>";
+			print "<h6>Name: $name</h6>";
+			print "<h6>Email Address: $sender</h6>";
+			print "<h6>Subject: $subject</h6>";
+			print "<h6>Message: $sendermessage</h6>";
+         }else {
+            echo "Message could not be sent...";
+         }
+}else{
+	echo "There was a problem sending your email. Please try again";
+}
+      ?>
 
-					<h4>Thank you. We have recieved your email and will contact you shortly.</h4>
-					<h5>&nbsp;</h5>
+				
+					
 
 				</div>
 
@@ -203,7 +239,7 @@ $(".banner").bgswitcher({
 
 				<div class="footer-logo">
 
-					<a href="index.html"><img src="images/f-logo.png" alt="" /></a>
+					<h1 style="color:#CCC">Birds With Dentures</h1>
 
 				</div>
 
@@ -303,7 +339,7 @@ $(".banner").bgswitcher({
 
 				<div class="copyright">
 
-					<p>Copyrights © 2015 Birds . All rights reserved | Design by Team 3 Designs</p>
+					<p>&nbsp;</p>
 
 				</div>
 

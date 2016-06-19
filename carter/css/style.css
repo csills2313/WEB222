@@ -17,7 +17,14 @@ body{
 	font-family: 'Open Sans', sans-serif;
 
 }
-
+hr {
+  border: 1;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#000;
+  height: 1px;
+}
 body a {
 
   transition: 0.5s all;
@@ -33,6 +40,8 @@ body a {
 }
 
 .banner{
+	width:75%;
+	margin-left:12%;
 
   background-size: 100% 100%;
   

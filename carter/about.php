@@ -82,7 +82,7 @@ $(".banner").bgswitcher({
 								<li><a href="donations.php"><strong>Donate Now</strong></strong></a></li> 
 
 								<li><a href="contact.php">Contact</a></li>
-                                <li><a href="donations.php">Donations</a></li>
+                                
                                 <li><a href="shoppingcart/index.php">My Cart</a></li>     
 
 							</ul>
@@ -178,7 +178,7 @@ $(".banner").bgswitcher({
 
 						<h5>Carter Sills</h5>
 
-						<p>Database Developer</p>
+						<p>Web Developer/Database Developer</p>
 
 					</div>
 
@@ -208,7 +208,7 @@ $(".banner").bgswitcher({
 
 				<div class="footer-logo">
 
-					<a href="index.html"><img src="images/f-logo.png" alt="" /></a>
+					<h1 style="color:#CCC">Birds With Dentures</h1>
 
 				</div>
 
@@ -308,7 +308,7 @@ $(".banner").bgswitcher({
 
 				<div class="copyright">
 
-					<p>Copyrights © 2015 Birds . All rights reserved | Design by Team 3 Designs</p>
+					<p>&nbsp;</p>
 
 				</div>
 
