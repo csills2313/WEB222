@@ -61,13 +61,13 @@ body a {
 }
 #contact_form label.error {
 color:red;
-display:table-row;
+display:table-cell;
 
 }
 
 #contact_form input.error {
 border:1px solid red;
-display: table-row;
+display: table-cell;
 
 }
 .social-icons{
