@@ -59,7 +59,17 @@ body a {
   padding-top: 5em;
 
 }
+#contact_form label.error {
+color:red;
+display:table-row;
 
+}
+
+#contact_form input.error {
+border:1px solid red;
+display: table-row;
+
+}
 .social-icons{
 
 	text-align: right;

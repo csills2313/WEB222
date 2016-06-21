@@ -15,7 +15,9 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
+<script src="js/jquery.validate.js"></script>
+<script src="js/additional-methods.js"></script>
+<script src="js/validate.js"></script>
 	<script src="scripts/jquery.bgswitcher.js"></script>
 
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -355,13 +357,13 @@ $(".banner").bgswitcher({
 					<h3>Send us an email</h3>
 				  <h3>Contact form</h3>
 
-					<form action="emailconfirmation.php" method="post">
+					<form name="contact_form" id="contact_form" action="emailconfirmation.php" method="post">
 
-						<input type="text" name="name" placeholder="Name" required="">
+						<input type="text" name="name" placeholder="Name" >
 
-						<input type="text" name="email" placeholder="Email" required="">
+						<input type="text" name="email" placeholder="Email" >
 
-						<input type="text" name="subject" placeholder="Subject" required="">
+						<input type="text" name="subject" placeholder="Subject" >
 
 						<textarea name="message" placeholder="Message" required></textarea>
 
