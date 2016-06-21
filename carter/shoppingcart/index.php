@@ -44,6 +44,10 @@ switch($_GET["action"]) {
 <HEAD>
 <TITLE>Donation Shopping Cart</TITLE>
 <link href="style.css" type="text/css" rel="stylesheet" />
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery.validate.js"></script>
+<script src="../js/additional-methods.js"></script>
+<script src="../js/validate_cart.js"></script>
 </HEAD>
 <BODY>
 <div id="shopping-cart">
@@ -85,7 +89,7 @@ if(isset($_SESSION["cart_item"])){
 }
 ?>
 </div>
-<form action="../donate_cofirm.php" method="post" class="btnAddAction">
+<form action="../donate_cofirm.php" id="contact_form" name="contact_form" method="post" class="btnAddAction">
 <table width="269" border="1">
   <tr>
     <th width="104" scope="row">Name</th>

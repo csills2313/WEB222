@@ -14,3 +14,15 @@ body{width:610px;}
 .product-item div{text-align:center;	margin:10px;}
 .product-price {color:#F08426;}
 .product-image {height:100px;background-color:#FFF;}
+
+#contact_form label.error {
+color:red !important;
+display:table-cell;
+
+}
+
+#contact_form input.error {
+border:1px solid red !important;
+display: table-cell;
+
+}

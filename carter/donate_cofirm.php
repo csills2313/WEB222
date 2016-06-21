@@ -133,7 +133,13 @@ $(".banner").bgswitcher({
 			  <div class="blog-left single-left">
 			    <p><a href="single.html">Thank you for your donation.  View your donation confirmation here</a></p>
 				  <p>&nbsp;</p>
-                  <table>
+                 <table>
+                 <th>Donor's Name</th><th>Email Address</th><th>Address</th><th>State</th><th>Zip Code</th>
+                 <tr>
+                 <td><?php echo $_POST["name"] ?></td><td><?php echo $_POST["email"] ?></td><td><?php echo $_POST["address"] ?></td><td><?php echo $_POST["state"] ?></td><td><?php echo $_POST["zipcode"] ?></td>
+                 </tr>
+                 </table>
+                  <table></br></br></br>
                   <th>Name</th><th>Donation Code</th><th>Quantity</th><th>Amount Donated</th>
 				 <?php		
     foreach ($_SESSION["cart_item"] as $item){
@@ -148,6 +154,7 @@ $(".banner").bgswitcher({
 				<?php
         $item_total += ($item["price"]*$item["quantity"]);
 		}
+		session_destroy();
 		?>
         </table>
 				  <p class="likes">&nbsp;</p>
