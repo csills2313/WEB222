@@ -94,27 +94,27 @@ if(isset($_SESSION["cart_item"])){
   <tr>
     <th width="104" scope="row">Name</th>
     <td width="149"><label for="name"></label>
-      <input type="text" name="name" id="name"></td>
+      <input type="text" name="name" id="name" value="<?php if (isset($_POST['name'])){ echo $_POST['name'];}?>"></td>
     </tr>
   <tr>
     <th scope="row">Email Address</th>
     <td><label for="email"></label>
-      <input type="text" name="email" id="email"></td>
+      <input type="text" name="email" id="email" value="<?php if (isset($_POST['email'])){ echo $_POST['email'];}?>"></td>
     </tr>
   <tr>
     <th scope="row">Address</th>
     <td><label for="address"></label>
-      <input type="text" name="address" id="address"></td>
+      <input type="text" name="address" id="address" value="<?php if (isset($_POST['address'])){ echo $_POST['address'];}?>"></td>
     </tr>
   <tr>
     <th scope="row">State</th>
     <td id="state" name="state"><label for="state"></label>
-      <input type="text" name="state" id="state"></td>
+      <input type="text" name="state" id="state" value="<?php if (isset($_POST['state'])){ echo $_POST['state'];}?>"></td>
     </tr>
     <tr>
     <th scope="row">Zip Code</th>
     <td><label for="zipcode"></label>
-      <input type="text" name="zipcode" id="zipcode"></td>
+      <input type="text" name="zipcode" id="zipcode" value="<?php if (isset($_POST['zipcode'])){ echo $_POST['zipcode'];}?>"></td>
     </tr>
 </table>
 <input name="donatenow" type="submit" id="donatenow" value="Donate Now!">
